@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 
-.color- blue {
+.color-blue {
   color: blue;
 }
 .notebox {
@@ -137,9 +137,29 @@ table {
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  text-align: center;
+}
+.wrapper h1{
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: blue;
 }
 .wrapper > div {
   outline: 1px solid red;
+}
+
+.outline {
+  outline: 1px solid brown;
+}
+
+.link {
+  font-style: 20px;
+  color:rgb(91, 91, 233);
+}
+
+.fw-bold {
+  font-weight: 900;
 }
 
 .img-size {
@@ -149,11 +169,7 @@ table {
   overflow: hidden;
 }
 
-.wrapper{
-
-}
-
 .container {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }

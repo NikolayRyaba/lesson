@@ -3,73 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-      div {
-        color: black;
-        background: yellow;
-        font-size: 20px;
-        text-align: center;
-        line-height: 20px;
-        font-weight: 600;
-        overflow: hidden;
-        margin: 0 auto;
-      }
-      .test {
-        width: 800px;
-        margin: 0 auto;
-      }
-      a {
-        color: firebrick;
-      }
-      a[href='https:// google.com']
-      {
-        color: red;
-      }
-      h1,
-      a {
-        font-size: 20px;
-      }
-      div > p {
-      }
-      * {
-        border: 1px solid green;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Helva</h1>
-    <a href="#">some link</a>
-    <a href="https://google.com" target="_blank">Go to google</a>
-    <div class="test" id="box">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic et iste
-      praesentium id mollitia ullam. Sint vitae eaque blanditiis sed.
-    </div>
-    <div style="line-height: 20px; font-weight: 900">
-      <h1>Helva Tahin</h1>
-      <p>Халва Турецкая</p>
+    <div class="wrapper">
+      <h1 class="fw-bold">Helva</h1>
+      <a class="link" href="#">some link</a>
+      <a class="link" href="https://google.com" target="_blank">Go to google</a>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic et iste
+        praesentium id mollitia ullam. Sint vitae eaque blanditiis sed.
+      </p>
+      <div class="fw-bold">
+        <h2>Helva Tahin</h2>
+        <p>Халва Турецкая</p>
 
-      <div>
-        <h2>Helva Sade 200gr</h2>
-        <p>Халва класическая Традиционная 200 грам</p>
-        <img src="images/1.jpg" alt="Helva Sade" />
-
-                  <h3>Helva Sade 80gr</h3>
-          <p>Халва класическая Традиционная 80 грам</p>
-          <img src="images/80гр..jpg" alt="Helva Sade" />
+        <div class="outline">
+          <h3>Helva Sade 200gr</h3>
+          <p>Халва класическая Традиционная 200 грам</p>
+          <img class="outline" src="images/1.jpg" alt="Helva Sade" width="490" height="385"/>
         </div>
-      </div>
 
-      <div style="background: gray">
+          <div class="outline">
+          <h3>Helva Sade 80gr</h3>
+          <p>Халва класическая Традиционная 80 грам</p>
+          <img class="outline" src="images/80гр..jpg" alt="Helva Sade" />
+          </div>
+        </div>
+
+      <div class="fw-bold outline" style="background: gray">
         <h2>Helva with cocao 200gr</h2>
         <p>Халва тахинная со вкусом какао 200 грам</p>
-        <img src="images/2.jpg" alt="Helva with cocao" />
+        <img class="outline" src="images/2.jpg" alt="Helva with cocao" />
       </div>
 
-      <div>
+      <div class="fw-bold outline">
         <h2>Helva with fistik 200gr</h2>
         <p>Халва тахинная с фисташками 200 грам</p>
-        <img src="images/3.jpg" alt="Helva Sade" />
+        <img class="outline" src="images/3.jpg" alt="Helva Sade" />
       </div>
     </div>
   </body>
